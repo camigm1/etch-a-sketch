@@ -1,6 +1,6 @@
-div {
+.squares {
   border: 1px solid black;
-  width: 16%;
+  width: 300px;
   height: 16%;
 }
 
