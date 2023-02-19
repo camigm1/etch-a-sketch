@@ -1,8 +1,14 @@
+* {
+}
+
 .squares {
   border: 1px solid black;
-  width: 300px;
+  width: 5%;
+  height: 80px;
 }
 
 #container {
   display: flex;
+  flex-wrap: wrap;
+  width: 70%;
 }
