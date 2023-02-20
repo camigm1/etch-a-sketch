@@ -1,15 +1,14 @@
 let divContainer = document.getElementById("container");
-// console.log(divContainer);
-let boxes = new Array();
-boxes.length = 16;
-// let specialBox = boxes[3];
-// specialBox.textContent = "special";
+let squares = document.querySelector(".squares");
 for (let i = 1; i <= 256; i++) {
   let div = document.createElement("div");
   div.className = "squares";
-  div.textContent = "is this working";
+  div.style.backgroundColor = "#ff8989";
+
   divContainer.appendChild(div);
-  console.log(divContainer);
 }
 
 console.log(divContainer);
+squares.addEventListener("mouseover", function () {
+  div.style.backgroundColor = "#333";
+});
