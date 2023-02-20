@@ -14,6 +14,9 @@ h1 {
   height: 50px;
 }
 
+.squares:hover {
+  background-color: #f8acff;
+}
 #container {
   margin: 0 auto;
   display: flex;
