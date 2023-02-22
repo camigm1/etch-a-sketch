@@ -7,7 +7,9 @@ body {
 h1 {
   text-align: center;
 }
-
+button {
+  color: black;
+}
 .squares {
   border: 1px solid #333;
   width: 5%;
